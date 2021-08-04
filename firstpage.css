@@ -1,0 +1,85 @@
+/* EXTRAS */
+
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(359deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+
+
+
+/* ALL SECTIONS */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("bg.jpg");
+}
+.w_text{
+    color: white;
+}
+.y_text{
+    color:yellow;
+
+}
+.r_button{
+    display: block;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.c_image{
+    border-radius: 50%;
+    max-width: 25%;
+}
+
+
+
+/* SECTION 1 */
+
+
+#s1_text{
+    max-width: 60%;
+    max-height: 30%;
+    float: left;
+    margin: 10px;
+}
+#s1_t1{
+    font-size: 80px;
+}
+#s1_t2{
+    font-size: 100px;
+}
+#s1_l1{
+    padding: 10px 20px;
+    max-width: 90px;
+    text-align: center;
+}
+#r_image{
+    max-width: 38%;
+    width: 50%;
+    float: right;
+    animation: rotation 7s infinite linear;
+}
+
+
+/* SECTION 2 */
+
+
+
+
+
+/* SECTION 3 */
+
+
+
+
