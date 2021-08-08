@@ -88,7 +88,21 @@ body{
 .rhombus{
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
-
+#r1{
+    z-index: -5;
+    position: relative;
+    left: 31%;
+    top: 50px;
+}
+#r2{
+    position: relative;
+    top: -50px;
+}
+#r3{
+    position: relative;
+    top: -50px;
+    left: 10%;
+}
 .s2_text{
     float: right;
     padding: 10px 20px;
